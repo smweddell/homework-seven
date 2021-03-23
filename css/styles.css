@@ -2183,7 +2183,11 @@ nav .links div a {
   border-bottom: #000 solid 2px;
   margin-top: -15px;
 }
-.contact .map {
+.contact .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact .content .map {
   width: 400px;
   height: 442px;
   background-image: url(../assets/map.svg);
@@ -2191,21 +2195,25 @@ nav .links div a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.contact .contact-form .form {
+.contact .content .contact-form {
+  margin-left: 450px;
+  margin-top: -440px;
+}
+.contact .content .contact-form .form {
   width: 530px;
   height: 60px;
   padding-left: 20px;
   margin-bottom: 20px;
   background-color: #f5f5f5;
 }
-.contact .contact-form .message {
+.contact .content .contact-form .message {
   width: 530px;
   height: 200px;
   padding-left: 20px;
   vertical-align: top;
   background-color: #f5f5f5;
 }
-.contact .contact-form .form-btn {
+.contact .content .contact-form .form-btn {
   width: 167px;
   height: 60px;
   font-family: Gillsans;
@@ -2219,4 +2227,13 @@ nav .links div a {
 .contact .import-info {
   font-size: 16px;
   font-family: Gillsans;
+  margin-top: -60px;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
 }
