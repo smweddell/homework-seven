@@ -1,0 +1,144 @@
+.special-offer {
+  max-width: 980px;
+  //   height: 685px;
+  margin: 0 auto;
+  margin-top: 55px;
+
+  .special3 {
+    .special-title {
+      font-size: 30px;
+      font-family: Proxima;
+    }
+
+    .special-border1 {
+      width: 200px;
+      border-bottom: $black solid 2px;
+      margin-top: -15px;
+    }
+  }
+
+  .special1 {
+    width: 650px;
+    height: 290px;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .special-image1 {
+      width: 200px;
+      height: 290px;
+      background-image: url(../assets/special-offer-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .special-content1 {
+      width: 430px;
+      height: 290px;
+      margin-left: 20px;
+
+      .spain {
+        font-size: 30px;
+        font-family: Proxima;
+
+        .discount {
+          font-size: 20px;
+          color: #ff7d38;
+          margin-left: 50px;
+        }
+      }
+
+      .special-border2 {
+        width: 196px;
+        margin-top: -15px;
+        border-bottom: $black solid 2px;
+      }
+
+      .content-special {
+        width: 290px;
+        margin-top: 22px;
+        font-size: 16px;
+        font-family: Gillsans;
+      }
+
+      .special-learn-btn {
+        width: 133px;
+        height: 40px;
+        margin-top: 75px;
+        font-family: Gillsans;
+        font-size: 15px;
+        color: $white;
+        background-color: $site-blue;
+        padding: 10px 20px;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .special2 {
+    width: 650px;
+    height: 290px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .special-image2 {
+      width: 200px;
+      height: 290px;
+      background-image: url(../assets/special-offer-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .special-content2 {
+      width: 430px;
+      height: 290px;
+      margin-left: 20px;
+
+      .spain {
+        font-size: 30px;
+        font-family: Proxima;
+
+        .discount {
+          font-size: 20px;
+          color: #ff7d38;
+          margin-left: 35px;
+        }
+      }
+
+      .special-border2 {
+        width: 214px;
+        margin-top: -15px;
+        border-bottom: $black solid 2px;
+      }
+
+      .content-special {
+        width: 290px;
+        margin-top: 22px;
+        font-size: 16px;
+        font-family: Gillsans;
+      }
+
+      .special-learn-btn {
+        width: 133px;
+        height: 40px;
+        margin-top: 75px;
+        font-family: Gillsans;
+        font-size: 15px;
+        color: $white;
+        background-color: $site-blue;
+        padding: 10px 20px;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+    .special-offer {
+      padding-left: 50px;
+    }
+  }
