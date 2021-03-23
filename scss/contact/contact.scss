@@ -20,7 +20,6 @@
   }
 
   .content {
-    // max-width: 980px;
     display: flex;
     flex-wrap: wrap;
 
@@ -34,10 +33,10 @@
     }
 
     .contact-form {
-        margin-left: 450px;
-        margin-top: -440px;
+        height: 522px;
+        max-width: 530px;
+        margin-left: 50px;
 
-        
       .form {
         width: 530px;
         height: 60px;
@@ -79,12 +78,29 @@
 @media only screen and (max-width: 800px) {
     .contact {
       padding-left: 50px;
+      padding-bottom: 50px;
       display: flex;
       flex-direction: column;
+      margin: 0 auto;
+      margin-top: 50px;
     }
 
-    // .contact-form {
-    //     width: 200px;
-    // }
+    .contact-title{
+        margin-left: 50px;
+    }
+
+    .map{
+        margin-left: 50px;
+    }
+
+    .contact-form {
+        padding-top: 50px;
+        
+    }
+
+    .import-info{
+        padding-top: 150px;
+        margin-left: 50px;
+    }
   }
   
