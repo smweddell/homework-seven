@@ -2045,5 +2045,123 @@ nav .links div a {
 }
 .blog {
   max-width: 980px;
+  min-height: 860px;
   margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+.blog .blog-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog .blog-top .title {
+  margin-bottom: 32px;
+}
+.blog .blog-top .title .blog-title {
+  font-size: 30px;
+  font-family: Proxima;
+}
+.blog .blog-top .title .blog-border {
+  width: 106px;
+  border-bottom: #000 solid 2px;
+  margin-top: -15px;
+}
+.blog .blog-top .date {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #79ADDC;
+  font-size: 12px;
+  font-family: Gillsans;
+}
+.blog .blog-top .date span {
+  font-size: 22px;
+  font-family: Gillsans;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.blog .blog-top .blog-image1 {
+  width: 900px;
+  height: 260px;
+  margin-left: 80px;
+  margin-top: -60px;
+  background-image: url(../assets/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .blog-top .top {
+  font-size: 15px;
+  font-family: Gillsans;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.blog .blog-top .bottom {
+  width: 380px;
+  width: 380px;
+  margin-left: 80px;
+  font-size: 13px;
+  font-family: Gillsans;
+  color: #79ADDC;
+}
+.blog .blog-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.blog .blog-bottom .date {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #79ADDC;
+  font-size: 12px;
+  font-family: Gillsans;
+}
+.blog .blog-bottom .date span {
+  font-size: 22px;
+  font-family: Gillsans;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.blog .blog-bottom .blog-image1 {
+  width: 900px;
+  height: 260px;
+  margin-left: 80px;
+  margin-top: -60px;
+  background-image: url(../assets/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .blog-bottom .top {
+  font-size: 15px;
+  font-family: Gillsans;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.blog .blog-bottom .bottom {
+  width: 380px;
+  width: 380px;
+  margin-left: 80px;
+  font-size: 13px;
+  font-family: Gillsans;
+  color: #79ADDC;
+}
+
+@media only screen and (max-width: 800px) {
+  .blog {
+    padding-left: 50px;
+  }
+
+  .blog-image1 {
+    max-width: 600px;
+  }
 }
